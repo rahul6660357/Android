@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:background="#8F35C2B2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:height="100dp"
+        android:textColor="#4AE90C0C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Converter App"/>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:textColor="#444325"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:textSize="30dp"
+            android:background="#ffffff"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:hint="enter amount"
+
+            android:id="@+id/india" />
+
+        <ImageView
+            android:background="#BD1717"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:src="@drawable/conv" />
+        <EditText
+
+            android:layout_weight="1"
+            android:textColor="#444325"
+            android:layout_margin="10dp"
+            android:layout_width="30dp"
+            android:layout_height="100dp"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            android:enabled="false"
+            android:hint="result"
+            android:id="@+id/result"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <Button
+            android:background="@drawable/aus"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            android:text="$"
+            android:id="@+id/btn1"
+            />
+        <Button
+            android:background="@drawable/brazl"
+            android:id="@+id/btn2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="R$"
+            android:textSize="50dp"
+            android:textStyle="bold"/>
+        <Button
+            android:background="@drawable/bolivia"
+            android:id="@+id/btn3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textStyle="bold"
+            android:text="	Bs."
+            android:textSize="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <Button
+            android:background="@drawable/aruba"
+            android:id="@+id/btn4"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            android:text="	ƒ"
+            />
+        <Button
+            android:background="@drawable/afganistan"
+            android:id="@+id/btn5"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Af"
+            android:textSize="50dp"
+            android:textStyle="bold"/>
+        <Button
+            android:background="@drawable/indo"
+            android:id="@+id/btn6"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textStyle="bold"
+            android:text="Rp"
+            android:textSize="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <Button
+            android:background="@drawable/armenia"
+            android:id="@+id/btn7"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            android:text="Դ"
+            />
+        <Button
+            android:background="@drawable/albania"
+            android:id="@+id/btn8"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="	L"
+            android:textSize="50dp"
+            android:textStyle="bold"/>
+        <Button
+            android:background="@drawable/azerbaizan"
+            android:id="@+id/btn9"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textStyle="bold"
+            android:text="ман"
+            android:textSize="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <Button
+            android:background="@drawable/bangladesh"
+            android:id="@+id/btn10"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textSize="50dp"
+            android:textStyle="bold"
+
+            android:text="৳"
+            />
+        <Button
+            android:background="@drawable/belarus"
+            android:id="@+id/btn11"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="	Br"
+            android:textSize="50dp"
+            android:textStyle="bold"/>
+        <Button
+            android:background="@drawable/congo"
+            android:id="@+id/btn12"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textStyle="bold"
+            android:text="	₣"
+            android:textSize="50dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

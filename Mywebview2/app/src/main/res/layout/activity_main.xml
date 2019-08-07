@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="5"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:background="@drawable/google"
+            android:id="@+id/web1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="90dp"
+            android:text="Google"
+            android:textColor="#0653F5"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/web2"
+            android:background="@drawable/facebook"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="90dp"
+            android:text="FACEBOOK"
+            android:textColor="#0653F5"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/web3"
+            android:background="@drawable/youtube"
+            android:paddingTop="90dp"
+            android:text="YOUTUBE"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/web4"
+            android:background="@drawable/twitter"
+            android:paddingTop="90dp"
+            android:text="TWITTER"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/web5"
+            android:background="@drawable/insta"
+            android:paddingTop="90dp"
+            android:text="INSTAGRAM"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/web6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/yahoo"
+            android:paddingTop="90dp"
+            android:text="YAHOO"
+            android:textColor="#0653F5"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/web7"
+            android:background="@drawable/amazon1"
+            android:paddingTop="90dp"
+            android:text="AMAZON"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/web8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/flipkart"
+            android:paddingTop="90dp"
+            android:text="FLIPKART"
+            android:textColor="#0653F5"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/web9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/myntra"
+            android:paddingTop="90dp"
+            android:text="MYNTRA"
+            android:textColor="#0653F5"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/web10"
+            android:background="@drawable/outlook"
+            android:paddingTop="90dp"
+            android:text="OUTLOOK"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/web11"
+            android:background="@drawable/gmail"
+            android:paddingTop="90dp"
+            android:text="GMAIL"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/web12"
+            android:background="@drawable/netflix"
+            android:paddingTop="90dp"
+            android:text="NETFLIX"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/web13"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/chrome"
+            android:paddingTop="90dp"
+            android:text="CHROME"
+            android:textColor="#0653F5"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/web14"
+            android:background="@drawable/snapchat"
+            android:paddingTop="90dp"
+            android:text="SNAPCHAT"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/web15"
+            android:background="@drawable/quora"
+            android:paddingTop="90dp"
+            android:text="QUORA"
+            android:textColor="#0653F5"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

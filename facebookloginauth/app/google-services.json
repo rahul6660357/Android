@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "239784754305",
+    "firebase_url": "https://facebookloginauth-1a4da.firebaseio.com",
+    "project_id": "facebookloginauth-1a4da",
+    "storage_bucket": "facebookloginauth-1a4da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239784754305:android:5cfcfaa1b17aa2c1",
+        "android_client_info": {
+          "package_name": "com.lcoa.facebookloginauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239784754305-g56i051drt0vve6mshlsskfsuhef5pb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lcoa.facebookloginauth",
+            "certificate_hash": "ebcf9376d0d2022413de25ef49238a20571a1e95"
+          }
+        },
+        {
+          "client_id": "239784754305-bl975bq61brpev5jgvji839c5oau2oug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdITh1pvAZSZiwvtYuH0-BrRMG47hKjj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239784754305-bl975bq61brpev5jgvji839c5oau2oug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

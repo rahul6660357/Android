@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/back"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupwith">
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/facebokid"
+        android:text="Login with Facebook"
+        android:textSize="30dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_marginTop="30dp"
+        android:id="@+id/googleid"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Login with google"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:text="OR"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Login with Gmail"
+        android:textSize="30dp"
+        android:background="@drawable/btn2"
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Login with Phone"
+        android:textSize="30dp"
+        android:background="@drawable/btn2"
+        />
+
+
+
+</LinearLayout>

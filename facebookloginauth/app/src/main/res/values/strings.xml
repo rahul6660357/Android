@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">facebookloginauth</string>
+    <color name="button1not">#99F5F5</color>
+    <string name="facebook_app_id">367764673943393</string>
+    <string name="fb_login_protocol_scheme">fb367764673943393</string>
+
+</resources>

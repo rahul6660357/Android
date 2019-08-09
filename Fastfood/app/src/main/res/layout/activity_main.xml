@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@drawable/burger"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_weight="6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <RatingBar
+
+        android:paddingTop="50dp"
+        android:id="@+id/myrating"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:numStars="5"
+        android:stepSize="0.1"/>
+ <LinearLayout
+     android:orientation="horizontal"
+     android:weightSum="3"
+     android:layout_weight="1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+      <TextView
+          android:text="$40"
+          android:layout_margin="30dp"
+          android:textSize="60dp"
+          android:textColor="#FFFFFF"
+          android:layout_weight="2"
+          android:layout_width="0dp"
+          android:layout_height="match_parent" />
+        <Button
+
+            android:background="@drawable/btn1"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:text="SUBMIT" />
+
+ </LinearLayout>    </LinearLayout>

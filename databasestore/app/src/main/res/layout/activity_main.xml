@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:inputType="textAutoComplete"
+      android:id="@+id/myedit1"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:hint="enter your name" />
+
+  <EditText
+      android:inputType="textEmailAddress"
+      android:id="@+id/myedit2"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:hint="enter your email" />
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/mypass"
+        android:layout_weight="1"
+        android:hint="password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+  <Button
+      android:id="@+id/mybtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="NEXT"
+      android:textSize="40dp"/>
+</LinearLayout>

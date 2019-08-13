@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:weightSum="6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondactivity">
+
+
+    <EditText
+        android:hint="enter your mobile number"
+        android:textSize="30dp"
+        android:id="@+id/myphn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="phone" />
+    <EditText
+        android:id="@+id/mycity"
+        android:hint="enter your city"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+
+
+    <Spinner
+        android:autofillHints="gender"
+        android:layout_weight="1"
+        android:id="@+id/myspinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+    </Spinner>
+    <EditText
+        android:id="@+id/bithdate"
+        android:hint="Enter your Birth Date"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="date"/>
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND DATA"
+        android:textSize="50dp"/>
+
+</LinearLayout>

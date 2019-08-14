@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#D1E0EB"
+android:orientation="vertical"
+    android:weightSum="4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_weight="1"
+        android:textSize="50dp"
+        android:id="@+id/mytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pemission test project"/>
+<EditText
+    android:layout_weight="1"
+    android:id="@+id/mynumber"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="enter mobile number"
+
+    android:textSize="40dp"/>
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter message here"
+        android:id="@+id/mymessage"
+        android:textSize="40dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="BTN1"
+            android:textSize="35dp"
+            android:layout_margin="30dp"
+            android:id="@+id/btn1"
+            android:layout_height="match_parent" />
+<Button
+    android:id="@+id/btn2"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_margin="30dp"
+    android:text="Btn2"
+    android:textSize="35dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "333243486675",
+    "firebase_url": "https://storeimageindatabase.firebaseio.com",
+    "project_id": "storeimageindatabase",
+    "storage_bucket": "storeimageindatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333243486675:android:0bbae1e62d6b60e4",
+        "android_client_info": {
+          "package_name": "com.lcoa.storeimageindatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333243486675-hin619j42up18bqmiq7sm7qkt9ppf06e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lcoa.storeimageindatabase",
+            "certificate_hash": "ebcf9376d0d2022413de25ef49238a20571a1e95"
+          }
+        },
+        {
+          "client_id": "333243486675-do4rasncb45cvnoptqo0huahkve6jej9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjAMDvlL0KOg6oQZLb5wnYKGXMV4-nMcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333243486675-do4rasncb45cvnoptqo0huahkve6jej9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

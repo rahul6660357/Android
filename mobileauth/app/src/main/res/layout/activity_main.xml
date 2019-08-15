@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp will send an SMS message to verify your phone number. Enter your country code and phone number" />
+<LinearLayout
+    android:layout_marginTop="40dp"
+    android:orientation="horizontal"
+    android:weightSum="6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/myed"
+
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+    <EditText
+        android:inputType="phone"
+
+        android:layout_weight="4"
+    android:id="@+id/myedit"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    />
+    <ImageView
+        android:src="@drawable/arrow"
+
+       android:layout_marginLeft="20dp"
+        android:id="@+id/mybtn"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/btn1"/>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carier SMS charges may apply"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/otpid"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "403874019343",
+    "firebase_url": "https://mobileauth-f2c41.firebaseio.com",
+    "project_id": "mobileauth-f2c41",
+    "storage_bucket": "mobileauth-f2c41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403874019343:android:62aea65c554ed111",
+        "android_client_info": {
+          "package_name": "com.lcoa.mobileauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403874019343-2is4eaao2o5l8cenqknnmq2foivmk9p7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lcoa.mobileauth",
+            "certificate_hash": "ebcf9376d0d2022413de25ef49238a20571a1e95"
+          }
+        },
+        {
+          "client_id": "403874019343-921p047r28f07nsdfk9fei915a96q13t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUDbepbvgxmc3D-tZu7NHq51beuSmIOls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403874019343-921p047r28f07nsdfk9fei915a96q13t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

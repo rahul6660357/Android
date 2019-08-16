@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Flashlight</string>
+    <string name="mag_error">No Flash In Your Device</string>
+    <string name="lbl_ok">OK</string>
+</resources>

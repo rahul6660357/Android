@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "635092243507",
+    "firebase_url": "https://homeactivity-e5a1c.firebaseio.com",
+    "project_id": "homeactivity-e5a1c",
+    "storage_bucket": "homeactivity-e5a1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635092243507:android:83805d8456947cb2",
+        "android_client_info": {
+          "package_name": "com.lcoa.homeactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635092243507-b06l7467ndl5ve7r327v0bgbeohisd1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lcoa.homeactivity",
+            "certificate_hash": "ebcf9376d0d2022413de25ef49238a20571a1e95"
+          }
+        },
+        {
+          "client_id": "635092243507-909ciquh8ah1g1scc9kqcgu3a9idho4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDonfGLbtKbAync5JSb_H_H1ESNsgCcdUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635092243507-909ciquh8ah1g1scc9kqcgu3a9idho4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
